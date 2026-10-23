@@ -9,6 +9,9 @@ global:
         replicas: 2
         stateful: true
 clusters:
+  ca-east-bhs-edge:
+    enabled: true
+    overlay: {}
   eu-west-gra-edge:
     enabled: true
     overlay: {}
@@ -20,7 +23,4 @@ clusters:
     overlay: {}
   eu-west-par-processing:
     enabled: false
-    overlay: {}
-  eu-west-gva-edge:
-    enabled: true
     overlay: {}
