@@ -21,3 +21,6 @@ clusters:
   eu-west-par-processing:
     enabled: false
     overlay: {}
+  eu-west-gva-edge:
+    enabled: true
+    overlay: {}
